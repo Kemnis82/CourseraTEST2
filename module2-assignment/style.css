@@ -1,0 +1,105 @@
+
+
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+h1 {
+  color: blueviolet;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  text-align: center;
+    
+}
+
+p {
+  background-color: rgb(192, 238, 99); 
+  width: 95%;
+  height: 150px;
+  font-family: Helvetica;
+  font-size: 18px;
+  color: black;
+  margin: 35px 5px 5px 5px;
+}
+
+
+.row {
+width: 100%;
+    }
+
+.menu-title1 {
+background-color: blueviolet;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 24px;
+color: black;
+text-align: center;
+width: 80px;
+border: 1px solid black;
+float: right;
+
+ }
+
+ .menu-title2 {
+  background-color: beige;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  color: black;
+  text-align: center;
+  width: 80px;
+  border: 1px solid black;
+  float: right;
+  
+   }
+
+   .menu-title3 {
+    background-color:palevioletred;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: black;
+    text-align: center;
+    width: 80px;
+    border: 1px solid black;
+    float: right;
+    
+     }
+
+.container {
+background-color:rgb(192, 238, 99);
+border: 1px solid black;
+margin: 20px 0px 10px 15px;
+
+}
+
+ .title {    
+  margin-bottom: 30px;
+  margin-left: 15px;
+  }
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+     
+  .col-lg-4 {
+    float: left;
+    width: 33.33%;
+    }
+
+}
+
+/********** Medium devices only **********/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+  .col-md-6 {
+    float: left;
+    width: 50%;
+  }
+   
+  .col-md-12 {
+    float: left;
+    width: 100%;
+    margin-top: -10px;
+      
+   }
+}
+ 
+
