@@ -1,0 +1,79 @@
+ 
+* {
+    box-sizing: border-box;
+}
+
+.navbar-brand { /*restaurant name background*/
+    margin: 20px 5px 30px 5px;
+         
+}
+.navbar-brand h1 { /*restaurant name text*/
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-size: 8vw;
+    margin-top: auto;
+
+}
+.navbar-brand a:hover, .navbar-brand a:focus { /*elimina linea del hipervinculo*/
+    text-decoration: none;
+    
+}
+
+.navbar-brand p span { /*alinea el texto en el centro de la imagen*/
+    vertical-align: middle;
+}
+
+  
+  body {
+      background-color: firebrick;
+  }
+ 
+  .navbar-toggler {
+     margin-bottom: 10px;
+    
+      }
+
+.navbar-nav {
+    margin-left: -25px;
+    margin-right: -15px;
+}
+
+.row {
+    width: 100%;
+  }
+  
+
+.container h2 {
+    font-size: 4vw;
+    margin-top: 20px;
+
+}
+    
+    li {
+    text-align: center;
+    border: 1px solid;
+    margin: 0px 5px 0px 5px;
+    width: 100%;
+    background-color: #424242;
+    
+  }
+    
+    /* ctrol + "corchete": shortcut to comment */
+  
+ 
+.container p { /*restaurant name text*/
+    color: black;
+    border: 1px solid;
+    padding: 20px;
+    font-size: 2.5vw;
+    background-color: burlywood;
+    text-align: justify;
+}
+
+
+@media (min-width: 768px) {
+    li {
+        border: none;
+    }
+
+  }
