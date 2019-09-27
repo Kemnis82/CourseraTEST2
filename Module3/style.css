@@ -1,0 +1,104 @@
+
+.navbar-brand {
+    margin-top: 10px;
+    padding-left: 7px;
+    height: 130px;
+
+}
+.navbar-brand h1 { /*restaurant name*/
+    text-transform: uppercase;
+    color: bisque;
+    font-size: 5vw;
+
+}
+.navbar-brand a:hover, .navbar-brand a:focus { /*elimina linea del hipervinculo*/
+    text-decoration: none;
+}
+
+
+.navbar-brand p {
+    font-size: .7em;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.navbar-brand p span { /*alinea el texto en el centro de la imagen*/
+    vertical-align: middle;
+}
+
+
+#logo-img {
+  background: url('./images/logo-picasso.jpg') no-repeat;
+  width: 150px;
+  height: 130px;
+  margin: 10px 15px 10px 0;
+  border: solid 2px bisque;
+  border-radius: 50px;
+  }
+
+  #mini-logo {
+    border: solid 2px bisque;
+    border-radius: 50%;
+
+  }
+
+  .fas {
+      color: firebrick;
+      font-size: 1.5em;
+           
+                         
+      }
+
+
+li {
+    text-align: center;
+    border: 1px solid;
+    margin: 5px 5px 0px 5px;
+    padding: 5px;
+    width: 100%;
+    border-radius: 5px;
+    
+    
+  }
+
+  body {
+      background-color: firebrick;
+    
+    
+  }
+ 
+
+.menu-title1 {
+    font-size: 1.2em;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 25px;
+    text-align: center;
+
+}
+  .row p {
+    background-color: bisque;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 3px;
+    border: solid 2px;
+
+  }
+
+
+  .image1 {
+      display: block;
+      margin: 0px auto;
+      width: 100px;
+      height: 100px;
+      
+      
+  }
+
+  @media (min-width: 768px) {
+    li {
+        border: none;
+    }
+
+  }
